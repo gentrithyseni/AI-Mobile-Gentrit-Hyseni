@@ -1,0 +1,2 @@
+1. Prompt: generate flutter code for a login screen connected to Supabase Auth
+2. Prompt: can you fix this Supabase connection error?
