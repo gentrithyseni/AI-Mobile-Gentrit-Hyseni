@@ -1,2 +1,10 @@
 1. Prompt: generate flutter code for a login screen connected to Supabase Auth
 2. Prompt: can you fix this Supabase connection error?
+3. npm install @supabase/supabase-js
+4.
+5.
+6.
+7.
+8.
+9.
+10.
