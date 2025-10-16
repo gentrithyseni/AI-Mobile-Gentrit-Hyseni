@@ -1,2 +1,4 @@
-console.log("URL: ", process.env.SUPABASE_URL);
-console.log("KEY: ", process.env.SUPABASE_KEY);
+import { registerRootComponent } from 'expo';
+import App from './App';
+
+registerRootComponent(App);

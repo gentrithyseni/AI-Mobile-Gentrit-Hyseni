@@ -40,3 +40,20 @@ venv.bak/
 # OS
 .DS_Store
 Thumbs.db
+
+# Expo / React Native
+node_modules/
+.expo/
+.expo-shared/
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+dist/
+
+# Metro
+.metro-health-check*

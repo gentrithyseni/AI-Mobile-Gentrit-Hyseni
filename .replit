@@ -21,16 +21,21 @@ args = "Server"
 name = "Server"
 author = "agent"
 
+[workflows.workflow.metadata]
+outputType = "webview"
+
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "node test.js"
-
-[workflows.workflow.metadata]
-outputType = "console"
+args = "npm start"
+waitForPort = 5000
 
 [[ports]]
 localPort = 5000
 externalPort = 80
+
+[[ports]]
+localPort = 33971
+externalPort = 3000
 
 [deployment]
 deploymentTarget = "autoscale"
