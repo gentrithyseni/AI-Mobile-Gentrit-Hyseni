@@ -5,7 +5,7 @@ const supabase = createClient(
   process.env.SUPABASE_URL,
   process.env.SUPABASE_KEY,
 );
-const { data, error } = await supabase.from("TEST").select("*");
+const { data, error } = await supabase.from("profiles").select("*");
 
 if (error) {
   console.log("Error:", error);
